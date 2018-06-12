@@ -11,6 +11,3 @@
         <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" ></ranking-index>
     @endif
 @endsection
-<div class="medium-3 columns text-center banner">
-    @include('ads.vertical')
-</div>
