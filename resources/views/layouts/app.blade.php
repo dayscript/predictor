@@ -29,7 +29,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="app" style="display:none;" :class="{'show':loaded}">
     <!-- /6881/rd.univision_section_deportes/futbol/mundialrusia2018/predictordemisionrusia -->
-    <div id='div-gpt-ad-1528227919403-0' style="width: 728px; height: 90px">--}}
+    <div id='div-gpt-ad-1528227919403-0' style="width: 728px; height: 90px">
         <script>
           googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528227919403-0'); });
           </script>
