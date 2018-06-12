@@ -7,6 +7,6 @@
 @section('content')
     <predictions-index :groups="{{ $groups }}"></predictions-index>
     <div class="medium-3 columns text-center banner">
-        @include('ads.vertical')
+        @include('ads.horizontal')
     </div>
 @endsection
