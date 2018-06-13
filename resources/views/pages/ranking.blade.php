@@ -10,19 +10,19 @@
         <div class="row">
             <div class="medium-12 columns text-left">
                 <div class="title-section">
-                    {{ $store.getters.trans('menu.ranking') }}
+                  {{ __('menu.ranking') }
                 </div>
             </div>
         </div>
     </div>
     <div class="padding-30">
         <div class="row">
-    @if($l)
-        <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" :l="{{ $l }}"></ranking-index>
-    @else
-        <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" ></ranking-index>
-    @endif
-  </div>
+        @if($l)
+            <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" :l="{{ $l }}"></ranking-index>
+        @else
+            <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" ></ranking-index>
+        @endif
+      </div>
 </div>
 
 </div>
