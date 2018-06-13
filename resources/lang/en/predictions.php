@@ -25,6 +25,6 @@ return [
     'predictions_help_message'=> 'Group A is near closing: You can make changes to your predictions until 15 minutes before the Uruguay vs Rusia match on Jun 25th',
     'total_points'            => 'Total score',
     'win_in_these_phase'      => 'Win in this group phase up to $3,000',
-    'share_image'             => 'prepredictor-social-en',
+    'share_image'             => 'predictor-social-en',
 
 ];
