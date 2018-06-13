@@ -5,5 +5,7 @@
 @endsection
 
 @section('content')
-    <predictions-index :groups="{{ $groups }}"></predictions-index>
+<div class="page">
+  <predictions-index :groups="{{ $groups }}"></predictions-index>
+</div>
 @endsection
