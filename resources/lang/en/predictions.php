@@ -22,7 +22,9 @@ return [
     'share_group_description' => 'You can also play to win wonderful prizes',
     'share_match_title'       => 'This is mi prediction for game :match in Russia World Cup 2018',
     'share_match_description' => 'You can also play to win wonderful prizes',
-    'predictions_help_message'              => 'Group A is near closing: You can make changes to your predictions until 15 minutes before the Uruguay vs Rusia match on Jun 25th',
+    'predictions_help_message'=> 'Group A is near closing: You can make changes to your predictions until 15 minutes before the Uruguay vs Rusia match on Jun 25th',
     'total_points'            => 'Total score',
     'win_in_these_phase'      => 'Win in this group phase up to $3,000',
+    'share_image'             => 'prepredictor-social-en',
+
 ];
