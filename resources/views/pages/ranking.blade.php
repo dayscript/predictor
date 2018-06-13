@@ -26,7 +26,7 @@
           @endif
         </div>
           <div class="medium-3 columns text-center banner">
-              <!-- <img src="/img/banners/MPI_300x600_Q20089_GM_99Coverage_ST_F.jpg" alt="Add"> -->
+              @include('ads.vertical')
           </div>
       </div>
 
