@@ -2,7 +2,8 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url')])
-            {{ config('app.name') }}
+            <img src="http://predictor.linkdigital.co/img/predictor.jpg">
+            <!-- {{ config('app.name') }} -->
         @endcomponent
     @endslot
 
