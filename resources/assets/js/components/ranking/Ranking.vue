@@ -64,10 +64,12 @@
                     </div>
                 </div>
                 <div class="medium-3 columns text-center banner">
-                  <div class="medium-3 columns text-center banner">
-                      @include('ads.vertical')
+                  <div id='div-gpt-ad-1528227919403-0' style="width: 300px; height: 600px">
+                    <script>
+                      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528227919403-0'); });
+                    </script>
                   </div>
-                    <!-- <img src="/img/banners/MPI_300x600_Q20089_GM_99Coverage_ST_F.jpg" alt="Add"> -->
+
                 </div>
             </div>
         </div>
