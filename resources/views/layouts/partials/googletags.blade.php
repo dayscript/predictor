@@ -3,7 +3,8 @@
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
 </script>
-@if(Request::url() !== 'predictions')
+
+@if(Request::path() !== 'predictions')
 <script>
   googletag.cmd.push(function() {
     googletag.defineSlot('\/6881\/rd.univision_section_deportes\/futbol\/mundialrusia2018\/predictordemisionrusia', [[ 300.0 ,  250.0 ], [ 300.0 ,  600.0 ]], 'div-gpt-ad-1528227919403-0').addService(googletag.pubads());
@@ -15,7 +16,7 @@
 @endif
 
 
-@if(Request::url() === 'predictions')
+@if(Request::path() === 'predictions')
   <script>
     googletag.cmd.push(function() {
       googletag.defineSlot('\/6881\/rd.univision_section_deportes\/futbol\/mundialrusia2018\/predictordemisionrusia', [[ 728.0 ,  90.0 ]], 'div-gpt-ad-1528227919403-0').addService(googletag.pubads());
