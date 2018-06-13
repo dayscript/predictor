@@ -10,7 +10,7 @@
         <div class="row">
             <div class="medium-12 columns text-left">
                 <div class="title-section">
-                  {{ __('menu.ranking') }
+                  {{ __('menu.ranking') }}
                 </div>
             </div>
         </div>
