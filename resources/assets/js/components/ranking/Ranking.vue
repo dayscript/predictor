@@ -1,6 +1,5 @@
 <template>
-
-        <div class="medium-9 columns">
+        <div class="medium-12 columns">
             <div class="info">
                 <div class="row">
                     <div class="medium-6 columns">
@@ -52,11 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="medium-3 columns text-center banner">
-            <!-- <img src="/img/banners/MPI_300x600_Q20089_GM_99Coverage_ST_F.jpg" alt="Add"> -->
-        </div>
         <spinner v-if="loading"></spinner>
-
 </template>
 
 <script>
