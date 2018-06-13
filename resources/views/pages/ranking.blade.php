@@ -11,7 +11,7 @@
         <div class="row">
             <div class="medium-12 columns text-left">
                 <div class="title-section">
-                    {{ $store.getters.trans('menu.ranking') }}
+                    <!-- {{ $store.getters.trans('menu.ranking') }} -->
                 </div>
             </div>
         </div>
