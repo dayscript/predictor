@@ -5,10 +5,10 @@
 @endsection
 
 @section('content')
-<div class="page">
-  <predictions-index :groups="{{ $groups }}"></predictions-index>
-  <div class="row" style="text-align: center;padding-bottom: 15px">
-      @include('ads.horizontal')
-  </div>
-</div>
+    <div class="page">
+        <predictions-index :groups="{{ $groups }}" :total="{{ auth()->user()->points }}"></predictions-index>
+        <div class="row" style="text-align: center;padding-bottom: 15px">
+            @include('ads.horizontal')
+        </div>
+    </div>
 @endsection
