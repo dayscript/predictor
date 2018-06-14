@@ -49,7 +49,6 @@ class MatchesController extends Controller
                     }
                 }
             }
-            
             if($changed) {
                 $group->save();
                 $group->updatePredictionsPoints();

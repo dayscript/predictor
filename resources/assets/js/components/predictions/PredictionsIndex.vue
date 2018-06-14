@@ -134,7 +134,6 @@
     },
     mounted () {
       this.points = this.total
-      console.log('Component mounted.')
     },
     methods: {
       onUpdated(points) {
