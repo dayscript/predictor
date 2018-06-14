@@ -2,7 +2,7 @@
     <div class="match relative">
         <div class="head">
             {{ $store.getters.trans('predictions.group_'+group.name) }}
-            <div class="points">0</div>
+            <div class="points">{{ points }}</div>
         </div>
         <div class="positions">
             <div class="row">
@@ -88,6 +88,7 @@
     props: ['group'],
     data () {
       return {
+        points:0,
         loading: 0,
         first: [],
         second: [],
@@ -112,6 +113,7 @@
           }
         }.bind(this));
       }
+      this.points = this.group.myprediction.points
       this.loading--
     },
     methods: {
@@ -141,7 +143,10 @@
         axios.post('/predictions/' + this.group.id, {first: this.first.length?this.first[0].id:null, second: this.second.length?this.second[0].id:null}).then(
           ({data}) => {
             this.loading--;
-            this.$emit('updated')
+            this.$emit('updated', data.total_points)
+            if(data.prediction){
+              this.points = data.prediction.points
+            }
             if (data.message) {
               new PNotify({
                 text: data.message,
