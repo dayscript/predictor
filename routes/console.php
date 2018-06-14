@@ -1,8 +1,7 @@
 <?php
 
-use App\Predictor\Group;
 use GuzzleHttp\Client;
-use Illuminate\Foundation\Inspiring;
+use App\Predictor\Group;
 
 /*
 |--------------------------------------------------------------------------

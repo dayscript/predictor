@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Client;
 use App\Predictor\Group;
 use App\Predictor\Match;
-use GuzzleHttp\Client;
-use Illuminate\Http\Request;
 
 class MatchesController extends Controller
 {
