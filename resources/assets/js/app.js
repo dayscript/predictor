@@ -27,7 +27,7 @@ Vue.component('spinner', require('./components/utils/Spinner.vue'));
 Vue.component('change-password', require('./components/utils/ChangePassword.vue'));
 Vue.component('game-summary', require('./components/utils/GameSummary.vue'));
 Vue.component('contact', require('./components/utils/Contact.vue'));
-Vue.component('ads-google', require('./components/ads/AdsGoogle.vue'));
+// Vue.component('ads-google', require('./components/ads/AdsGoogle.vue'));
 
 import Lang from './lang'
 import Vuex from 'vuex'
