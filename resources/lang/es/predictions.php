@@ -22,7 +22,7 @@ return [
     'share_group_description'  => 'Tu también puedes participar y ganar fabulosos premios',
     'share_match_title'        => 'Este es mi pronóstico para el partido :match del Mundial de Rusia 2018',
     'share_match_description'  => 'Tu también puedes participar y ganar fabulosos premios',
-    'predictions_help_message' => 'El Grupo A esta por cerrar: Puedes realizar cambios a tus pronósticos hasta 15 minutos antes del partido Uruguay vs Rusia el 25 de Junio',
+    'predictions_help_message' => 'La Fase de grupos ha cerrado sus pronósticos',
     'total_points'             => 'Puntaje acumulado',
     'win_in_these_phase'       => 'Gana en esta fase de grupos hasta $3,000',
     'share_image'              => 'predictor-social-es',
