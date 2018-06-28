@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="social text-center" v-if="local_score && visit_score">
+        <div class="social text-center" v-if="match && match.active">
             <social-sharing v-if="match.myprediction && match.myprediction.id" :url="'https://predictor.linkdigital.co/matchpredictions/'+match.myprediction.id" inline-template>
                 <div>
                     <network network="facebook">
