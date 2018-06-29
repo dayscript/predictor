@@ -35,11 +35,11 @@
             <div class="row">
                 <div class="medium-12 columns">
                     <ul class="tabs" data-active-collapse="false" data-tabs id="collapsing-tabs">
-                        <li class="tabs-title is-active">
-                            <a href="#panel1c" aria-selected="true">{{ $store.getters.trans('predictions.group_phase') }}</a>
-                        </li>
                         <li class="tabs-title">
-                            <a href="#panel2c">{{ $store.getters.trans('game.round_round_of_16') }}</a></li>
+                            <a href="#panel1c">{{ $store.getters.trans('predictions.group_phase') }}</a>
+                        </li>
+                        <li class="tabs-title is-active">
+                            <a href="#panel2c" aria-selected="true">{{ $store.getters.trans('game.round_round_of_16') }}</a></li>
                         <li class="tabs-title">
                             <a href="#panel3c">{{ $store.getters.trans('game.round_quarter_finals') }}</a></li>
                         <li class="tabs-title">
