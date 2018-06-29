@@ -48,14 +48,14 @@
                         </li>
                     </ul>
                     <div class="tabs-content" data-tabs-content="collapsing-tabs">
-                        <div class="tabs-panel is-active" id="panel1c">
+                        <div class="tabs-panel" id="panel1c">
                             <div class="row">
                                 <div class="medium-3 columns collapse" v-for="group in groups">
                                     <group-prediction :group="group" :active="active=='groups'" @updated="onUpdated"></group-prediction>
                                 </div>
                             </div>
                         </div>
-                        <div class="tabs-panel" id="panel2c">
+                        <div class="tabs-panel is-active" id="panel2c">
                             <div class="row">
                                 <div class="medium-3 columns collapse end">
                                     <match-prediction :match_id="958070"></match-prediction>
