@@ -22,9 +22,9 @@ return [
     'share_group_description' => 'You can also play to win wonderful prizes',
     'share_match_title'       => 'This is mi prediction for game :match in Russia World Cup 2018',
     'share_match_description' => 'You can also play to win wonderful prizes',
-    'predictions_help_message'=> 'The predictions for the group stage have been closed',
+    'predictions_help_message'=> 'The predictions for the round of 16 phase are open',
     'total_points'            => 'Total score',
-    'win_in_these_phase'      => 'Win in this group phase up to $3,000',
+    'win_in_these_phase'      => 'Win in this round of 16 phase up to $2,000',
     'share_image'             => 'predictor-social-en',
 
 ];
