@@ -20,9 +20,9 @@
           <div class="medium-9 columns text-center banner">
 
           @if($l)
-              <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" :l="{{ $l }}"></ranking-index>
+              <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" :l="{{ $l }}" :r="{{ $r }}"></ranking-index>
           @else
-              <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" ></ranking-index>
+              <ranking-index :rounds="{{ $rounds }}" :leagues="{{ $leagues }}" userid="{{ auth()->user()->id }}" :r="{{ $r }}"></ranking-index>
           @endif
         </div>
           <div class="medium-3 columns text-center banner">
