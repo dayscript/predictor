@@ -99,11 +99,13 @@ Artisan::command('matches:update-points', function () {
             foreach ($round->matches as $id => $data) {
                 $match = Match::firstOrCreate(['id' => $id]);
                 $this->info('Match ' . $match->id);
-                $match->status      = $data->period;
-                $match->local_score = $data->home->score;
-                $match->local_id    = $data->home->id;
-                $match->visit_score = $data->away->score;
-                $match->visit_id    = $data->away->id;
+                $match->status          = $data->period;
+                $match->local_score     = $data->home->score;
+                $match->local_pen_score = $data->home->pen_score;
+                $match->local_id        = $data->home->id;
+                $match->visit_score     = $data->away->score;
+                $match->visit_pen_score = $data->away->pen_score;
+                $match->visit_id        = $data->away->id;
                 $match->save();
                 if ($match->status != 'PreMatch') $match->updatePredictionsPoints();
             }
@@ -112,9 +114,9 @@ Artisan::command('matches:update-points', function () {
 })->describe('Updates match predictions positions');
 
 Artisan::command('users:update-positions', function () {
-    $users = User::with(['predictions','matchpredictions.match.round'])->get();
+    $users = User::with(['predictions', 'matchpredictions.match.round'])->get();
     foreach ($users as $user) {
-        $this->line('Calculating points: '. $user->id . '. ' . $user->fullName);
+        $this->line('Calculating points: ' . $user->id . '. ' . $user->fullName);
         $user->updatePoints();
     }
     $users = User::orderByDesc('points')->orderBy('created_at')->get();
