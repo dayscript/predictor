@@ -38,9 +38,9 @@
                         <li class="tabs-title">
                             <a href="#panel1c">{{ $store.getters.trans('predictions.group_phase') }}</a>
                         </li>
-                        <li class="tabs-title is-active">
-                            <a href="#panel2c" aria-selected="true">{{ $store.getters.trans('game.round_round_of_16') }}</a></li>
                         <li class="tabs-title">
+                            <a href="#panel2c" aria-selected="true">{{ $store.getters.trans('game.round_round_of_16') }}</a></li>
+                        <li class="tabs-title is-active">
                             <a href="#panel3c">{{ $store.getters.trans('game.round_quarter_finals') }}</a></li>
                         <li class="tabs-title">
                             <a href="#panel4c">{{ $store.getters.trans('game.round_semi_finals') }}</a></li>
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tabs-panel is-active" id="panel2c">
+                        <div class="tabs-panel" id="panel2c">
                             <div class="row">
                                 <div class="medium-3 columns collapse end">
                                     <match-prediction :match_id="958070"></match-prediction>
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tabs-panel" id="panel3c">
+                        <div class="tabs-panel is-active" id="panel3c">
                             <div class="row">
                                 <div class="medium-3 columns collapse end">
                                     <match-prediction :match_id="958078"></match-prediction>
