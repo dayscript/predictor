@@ -24,7 +24,7 @@ return [
     'share_match_description' => 'You can also play to win wonderful prizes',
     'predictions_help_message'=> 'The predictions for the quarter finals are open',
     'total_points'            => 'Total score',
-    'win_in_these_phase'      => 'Win in this round of 16 phase up to $2,000',
+    'win_in_these_phase'      => 'Win in this round up to $2,000',
     'share_image'             => 'predictor-social-en',
 
 ];

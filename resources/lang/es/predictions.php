@@ -24,6 +24,6 @@ return [
     'share_match_description'  => 'Tu también puedes participar y ganar fabulosos premios',
     'predictions_help_message' => 'Estan abiertos los pronosticos para la fase Cuartos de Final',
     'total_points'             => 'Puntaje acumulado',
-    'win_in_these_phase'       => 'Gana en esta fase de octavos hasta $2,000',
+    'win_in_these_phase'       => 'Gana en esta fase hasta $2,000',
     'share_image'              => 'predictor-social-es',
 ];
