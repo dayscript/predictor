@@ -22,8 +22,8 @@ return [
     'share_group_description'  => 'Tu también puedes participar y ganar fabulosos premios',
     'share_match_title'        => 'Este es mi pronóstico para el partido :match del Mundial de Rusia 2018',
     'share_match_description'  => 'Tu también puedes participar y ganar fabulosos premios',
-    'predictions_help_message' => 'Estan abiertos los pronosticos para la fase Cuartos de Final',
+    'predictions_help_message' => 'Estan abiertos los pronosticos para la fase semifinal',
     'total_points'             => 'Puntaje acumulado',
-    'win_in_these_phase'       => 'Gana en esta fase hasta $2,000',
+    'win_in_these_phase'       => 'Gana en esta fase hasta $1,000',
     'share_image'              => 'predictor-social-es',
 ];
