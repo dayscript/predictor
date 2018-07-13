@@ -22,7 +22,7 @@ return [
     'share_group_description' => 'You can also play to win wonderful prizes',
     'share_match_title'       => 'This is mi prediction for game :match in Russia World Cup 2018',
     'share_match_description' => 'You can also play to win wonderful prizes',
-    'predictions_help_message'=> 'The predictions for the semi-finals fase are open',
+    'predictions_help_message'=> 'The predictions for the final fase are open',
     'total_points'            => 'Total score',
     'win_in_these_phase'      => 'Win in this round up to $1,000',
     'share_image'             => 'predictor-social-en',
